@@ -21,6 +21,7 @@ header{
     height: 100vh;
 }
 
+
 h1{
     font-size: 500%;
     font-weight: 700;
@@ -98,7 +99,7 @@ h3{
 .nav-list li{
     display: inline-block;
     margin: 25px;
-    margin-top: 90px;
+    margin-top: 85px;
     letter-spacing: 5px;
     font-size: 16px;
 }
@@ -108,10 +109,48 @@ h3{
     font-weight: 300;
     font-size: 130%;
     color: white;
+    padding:8px 0;
+    border-bottom: 5px solid transparent;
+    transition: border-bottom 0.2s;
 }
 
 .nav-list li a:hover{
-    border-bottom: 5px solid #00521c;
+    border-bottom: 3px solid #009432;
+}
+
+
+.section-1{
+    background-color: grey;
+    height: 100vh;
+}
+
+.row-1{
+    width: 1100px;
+    background-color:greenyellow;
+    margin: 0px auto;
+}
+
+.row-2{
+    width: 1100px;
+    background-color: violet;
+    height: 80vh;
+    margin: 0px auto;
+}
+
+.section-cards{
+    display: inline-block;
+    width: 32.3%;
+    border: 2px solid red;
+    height: 70%;
+    margin: 2px;
+}
+
+h2{
+    font-size: 200%;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 
 

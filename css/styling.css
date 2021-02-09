@@ -1,32 +1,120 @@
+/*Removing broswer default margin and paddings*/
 *{
     margin: 0;
     padding: 0;
 }
 
+/*---------------------------------------------*/
+/* Styling for the main BODY tag*/
+/*---------------------------------------------*/
+
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lato', sans-serif;
     color: white;
+    font-size: 20px;
 }
 
 header{
-    height: 100vh;
-    background-image: url(/images/teapot-img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(/images/teapot-img.jpg);
     background-size:cover;
     background-position:center;
-    background-repeat: no-repeat;
-    position: relative;
+    height: 100vh;
 }
 
 h1{
-    font-size: 48px;
+    font-size: 500%;
+    font-weight: 700;
+    color: #f24b0f;
+    margin-left: -40px;
+}
+
+h3{
+    margin: 10px;
+    margin-left: -28px;
+    font-size: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    word-spacing: 2px;
 }
 
 #header-text{
-    display: inline-block;
-    margin-top: 20rem;
-    margin-left: 60rem;
-    border: 1px red solid;
-    
-
+    position: absolute;
+    top: 35%;
+    left: 66%;
 }
+
+.btn{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    border: 2px solid green;
+    border-radius: 200px;
+    padding: 8px;
+    margin: 8px;
+    margin-left: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.btn-primary{
+    background-color: #009432;
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color: #00521c;
+}
+
+.btn-secondary{
+    color: #009432;
+}
+
+.btn-secondary:hover{
+    background-color: #009432;
+    color: white;
+}
+
+.row{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.3));
+    background-image: transparent;
+    height: 130px;
+}
+
+.tea-logo{
+    height: 100px;
+    width: auto;
+    margin-top: 10px;
+    float: left;
+}
+
+.nav-list{
+    list-style: none;
+    float: right;
+}
+
+.nav-list li{
+    display: inline-block;
+    margin: 25px;
+    margin-top: 90px;
+    letter-spacing: 5px;
+    font-size: 16px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 130%;
+    color: white;
+}
+
+.nav-list li a:hover{
+    border-bottom: 5px solid #00521c;
+}
+
+
+
+
 

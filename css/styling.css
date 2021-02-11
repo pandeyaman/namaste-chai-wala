@@ -171,7 +171,7 @@ h3{
     border: 2px solid transparent;
     height: 80%;
     margin: 15px;
-    box-shadow: 3px 3px 8px 2px #f75e27d3;
+   /* box-shadow: 3px 3px 8px 2px #f75e27d3;*/
 }
 
 .section-cards img{
@@ -183,7 +183,7 @@ h3{
 .section-cards p{
     display: inline-block;
     text-align: justify;
-    color: #555;
+    color: rgb(110, 110, 110);
     font-size: 90%;
     font-weight: 400;
     padding: 10px;
@@ -217,15 +217,50 @@ h2:after{
 
 }
 
+.row-3{
+    width: 100%;
+}
+
 .section-meals{
     width: 100%;
-    background-color: aqua;
+    
+}
+
+.list-meals{
+    list-style: none;
+    width: 100%;
+    
+}
+
+.list-meals li{
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 25%;
+    background-color: black;
 }
 
 .img-meals{
-    width: 500px;
+    
+    width: 100%;
+    height: 250px;
+    transform: scale(1.2);
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0.7;
+    
 }
 
+.clearfix:after{
+    display: block;
+    content: "";
+    clear: both;
+    height: zero;
+}
+
+.img-meals:hover{
+    transform: scale(1);
+    opacity: 1;
+}
 
 
 

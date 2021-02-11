@@ -262,6 +262,48 @@ h2:after{
     opacity: 1;
 }
 
+.section-delivery{
+    width: 100%;
+    background-color: white;
+}
+
+.section-delivery h2{
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.img-phone-div{
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    background-color: white;
+}
+
+.delivery-steps-div{
+    width: 49%;
+    float: right;
+    padding-top: 80px; 
+    background-color: white;
+    color: #555;
+    border: 2px solid red;
+}
+
+.steps-marking{
+    display: inline;
+    color: #f24b0f;
+    border: 1px solid #f24b0f;
+    border-radius: 50%;
+}
+
+.img-phone-div img{
+    width: 250px;
+    float: right;
+    margin: 40px;
+    padding-right: 40px;
+}
+
 
 
 

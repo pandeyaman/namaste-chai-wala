@@ -264,7 +264,8 @@ h2:after{
 
 .section-delivery{
     width: 100%;
-    background-color: white;
+    height: 100vh;
+    background-color: rgb(255, 255, 255)(133, 43, 43);
 }
 
 .section-delivery h2{
@@ -278,16 +279,15 @@ h2:after{
     display: inline-block;
     width: 50%;
     height: auto;
-    background-color: white;
+    background-color:transparent;
 }
 
 .delivery-steps-div{
-    width: 49%;
+    width: 50%;
     float: right;
-    padding-top: 80px; 
-    background-color: white;
+    padding-top: 10px; 
+    background-color: transparent;
     color: #555;
-    border: 2px solid red;
 }
 
 .steps-marking{
@@ -302,6 +302,48 @@ h2:after{
     float: right;
     margin: 40px;
     padding-right: 40px;
+}
+
+.delivery-steps{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+.img-delivery{
+    width: 400px;
+    padding-bottom: 10px;
+    padding-left: 15%;
+}
+
+.steps-numbering{
+    color: #f24b0f;
+    border: 1px solid #f24b0f;
+    display: inline-block;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    padding: 10px;
+    font-size: 150%;
+    font-weight: 300;
+    margin-right: 12px;
+}
+
+.delivery-steps p{
+    display: inline;
+    font-size: 100%;
+    color: #555;
+    font-weight: 400;
+    font-size: 100%;
+    letter-spacing: 1px;
+}
+
+.app-img{
+    height: 60px;
+    width: auto;
+    margin: 25px;
+    margin-top: 30px;
+    margin-left: 0px;
 }
 
 

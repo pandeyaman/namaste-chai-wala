@@ -19,6 +19,7 @@ header{
     background-size:cover;
     background-position:center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 
@@ -401,8 +402,8 @@ h2:after{
     padding-left: 15px;
     padding-top: 0px;
     text-align: center;
-    font-size: 110%;
-    color: #f24b0f;
+    font-size: 120%;
+    color: #f24c0fda;
     margin-left: 10px;
 }
 
@@ -417,6 +418,84 @@ h2:after{
     font-weight: 400;
     letter-spacing: 2px;
     word-spacing: 3px;
+}
+
+
+.section-reviews{
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(/images/tea-stall.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-reviews h2{
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.review-cards{
+    display: inline-block;
+    width: 28%;
+    height: 60%;
+    margin-left: 55px;
+    margin-right: 0px;
+}
+
+blockquote{
+    padding: 30px;
+    font-size: 90%;
+    font-style: italic;
+    text-align: justify;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+blockquote:before{
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    margin-bottom: -30px;
+}
+
+blockquote:after{
+    content: "\201D";
+    font-size: 400%;
+    display: block;
+    float: right;
+    margin-top: 10px;
+}
+
+.reviewer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reviewer p{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    font-size: 90%;
+    color: rgb(255, 255, 255);
+    
+}
+
+.star{
+    margin: 4px;
+    margin-left: -2px;
+    font-size: 120%;
+    color: #ffc400fd;
+}
+
+.star-box{
+    width: fit-content;
+    margin: 0 auto;
 }
 
 

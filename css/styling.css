@@ -591,6 +591,95 @@ textarea{
 }
 
 
+footer{ 
+    width: 100%;
+    background-color:#333333;
+    color: rgb(151, 151, 151);
+}
+
+.footer-navigation{
+    width: 80%;
+    height: 20vh;
+    margin: 0 auto;
+}
+
+.footer-nav-list{
+    display: inline-block;
+    list-style: none;
+    padding-left: 120px;
+}
+
+.footer-nav-list li{
+    float: left;
+    padding: 10px;
+    padding-top: 10px;
+    font-size: 85%;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+.nav-list{
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+    transition: color 0.4s;
+}
+
+.nav-list:hover{
+    color: #f24b0f;
+    
+}
+
+.social-icon{
+    font-size: 140%;
+    color: rgb(190, 190, 190);
+    transition: color 0.4s;
+}
+
+.facebook:hover{
+    color: #1877f2;
+}
+
+.instagram:hover{
+    color: #c32aa3;
+}
+
+.twitter:hover{
+    color: #1da1f2;
+}
+
+.google:hover{
+    color: #db4437;
+}
+
+.social{
+    float: right;
+    padding-right: 120px;
+}
+
+.footer-declaration{
+    text-align: center;
+    margin-top: 45px;
+    height: 10vh;
+    font-size: 90%;
+    font-weight: 300;
+    text-transform: uppercase;
+    word-spacing: 3px;
+}
+
+.name{
+    font-size: 100%;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+    transition: color 0.4s;
+}
+
+.name:hover{
+    color: #f24b0f;
+    
+}
+
 
 
 

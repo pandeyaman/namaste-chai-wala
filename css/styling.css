@@ -12,6 +12,7 @@ body{
     font-family: 'Lato', sans-serif;
     color: white;
     font-size: 20px;
+    background-color: white;
 }
 
 header{
@@ -48,7 +49,7 @@ h3{
     left: 66%;
 }
 
-.btn{
+.btn, button{
     display: inline-block;
     font-size: 16px;
     font-weight: 400;
@@ -405,6 +406,7 @@ h2:after{
     font-size: 120%;
     color: #f24c0fda;
     margin-left: 10px;
+    vertical-align: middle;
 }
 
 .icon-desc{
@@ -431,7 +433,7 @@ h2:after{
 }
 
 .section-reviews h2{
-    padding-top: 40px;
+    padding-top: 60px;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 40px;
@@ -442,7 +444,7 @@ h2:after{
     display: inline-block;
     width: 28%;
     height: 60%;
-    margin-left: 55px;
+    margin-left: 3.8%;
     margin-right: 0px;
 }
 
@@ -482,8 +484,7 @@ blockquote:after{
     margin-bottom: 10px;
     padding-left: 50px;
     font-size: 90%;
-    color: rgb(255, 255, 255);
-    
+    color: rgb(255, 255, 255);  
 }
 
 .star{
@@ -497,6 +498,99 @@ blockquote:after{
     width: fit-content;
     margin: 0 auto;
 }
+
+.contact-section-background{
+    background-color: #F4F4F4;
+}
+
+.section-contact{
+    width: 60%;
+    height: 80vh;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+}
+
+.section-contact h2{
+    padding-top: 60px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+    color: rgb(49, 49, 49);
+}
+
+.form-row{
+    display: inline-block;
+    width: 100%;
+    height: 7vh;
+    background-color: transparent;
+}
+
+.contact-label{
+    width: 40%;
+    float: left;
+    background-color: transparent;
+    color: #555;
+}
+
+label{
+    padding-left: 80px;
+    font-size: 110%;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.contact-field{
+    width: 60%;
+    float: left;
+    background-color: transparent;
+}
+
+#offer-check-text{
+    color: #555;
+    margin-left: 8px;
+    font-size: 85%;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"]
+,textarea{
+    width: 80%;
+    height:60%;
+    border-radius: 3px;
+    padding: 5px;
+    font-size:80%;
+    border: 1px solid #ccc;
+}
+
+select{
+    font-size: 80%;
+    border: 1px solid #ccc;
+    color: #555;
+    padding: 3px;
+}
+
+textarea{
+    font-size: 80%;
+    height: 160%;
+}
+
+.btn-submit{
+    width: 30%;
+    font-size: 100%;
+    font-weight: 100;
+    background-color: white;
+    color: #f24b0f;
+    border: 1px solid #f24b0f;
+}
+
+.btn-submit:hover{
+    background-color: #f24b0f;
+    color: white;
+    border: 1px solid #f24b0f;
+}
+
+
 
 
 

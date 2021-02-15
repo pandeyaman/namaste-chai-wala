@@ -170,9 +170,10 @@
         font-size: 16px;
     }
 
-    header{
+    header {
         height: 90%;
     }
+
     #header-text {
         width: 100%;
         padding: 0 2%;
@@ -218,7 +219,7 @@
         text-align: center;
     }
 
-    .row-1{
+    .row-1 {
         width: 100%;
     }
 
@@ -236,7 +237,7 @@
         width: 25%;
     }
 
-    .section-cards img{
+    .section-cards img {
         margin: 0 auto;
     }
 
@@ -260,9 +261,10 @@
         margin-left: 2%;
     }
 
-    .img-phone-div{
+    .img-phone-div {
         margin-left: -3%;
     }
+
     .img-phone-div img {
         width: 30%;
         margin-top: -5px;
@@ -273,6 +275,7 @@
         margin-top: -12%;
         margin-left: -12%;
     }
+
     .delivery-steps {
         margin-left: -10%;
     }
@@ -298,7 +301,7 @@
     }
 
     .section-cities {
-        height: 75%;
+        height: 65%;
         margin: 0 auto;
     }
 
@@ -306,30 +309,44 @@
         font-size: 85%;
     }
 
+    .city-name{
+        font-size: 130%;
+        padding-left: 10px;
+        letter-spacing: 2px;
+    }
+
+    .icon-desc {
+        padding-left: 5px;
+        padding-top: 5px;
+        vertical-align: middle;
+        word-spacing: 1px;
+    }
+
+    .section-reviews {
+        height: 90vh;
+    }
+
+    .review-cards {
+        height: 90%;
+    }
+
+    blockquote{
+        font-size: 90%;
+        text-align: left;
+        padding: 10px;
+    }
+
     .section-contact {
-        height: 80%;
-        width: 70%;
+        height: 75%;
+        width: 85%;
     }
 
-    label {
-        padding-left: 50px;
-        font-size: 90%;
-    }
-
-    .contact-field {
-        width: 60%;
-        float: left;
-        background-color: transparent;
-    }
-
-    .btn-submit {
-        width: 25%;
-        font-size: 90%;
-        margin-top: 3%;
+    .footer-navigation{
+        width: 100%;
     }
 
     .footer-nav-list {
-        padding-left: 80px;
+        padding-left: 20px;
     }
 }
 
@@ -337,10 +354,15 @@
 /* Media query for resolution betweem 480px & 768px*/
 /*---------------------------------------------------------------*/
 
-@media only screen and (max-width:767px) {}
+@media only screen and (max-width:767px) {
+
+    
+}
 
 /*---------------------------------------------------------------*/
 /* Media query for resolution max-width 480px*/
 /*---------------------------------------------------------------*/
 
-@media only screen and (max-width:480px) {}
+@media only screen and (max-width:480px) {
+    
+}

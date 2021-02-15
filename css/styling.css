@@ -1,5 +1,5 @@
 /*Removing broswer default margin and paddings*/
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -8,23 +8,28 @@
 /* Styling for the  BODY tag                   */
 /*---------------------------------------------*/
 
-body{
+html{
+    overflow-x: hidden;
+}
+
+body {
     font-family: 'Lato', sans-serif;
     color: white;
     font-size: 20px;
     background-color: white;
+    overflow-x: hidden;
 }
 
-header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(/images/teapot-img.jpg);
-    background-size:cover;
-    background-position:center;
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/teapot-img.jpg);
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     background-attachment: fixed;
 }
 
 
-h1{
+h1 {
     font-family: 'Inknut Antiqua', serif;
     font-size: 450%;
     font-weight: 400;
@@ -32,7 +37,7 @@ h1{
     margin-left: -40px;
 }
 
-h3{
+h3 {
     margin: 10px;
     margin-left: -18px;
     margin-top: -40px;
@@ -43,13 +48,14 @@ h3{
     word-spacing: 2px;
 }
 
-#header-text{
+#header-text {
     position: absolute;
     top: 35%;
     left: 66%;
 }
 
-.btn, button{
+.btn,
+button {
     display: inline-block;
     font-size: 16px;
     font-weight: 400;
@@ -64,38 +70,38 @@ h3{
     transition: background-color 0.4s, color 0.4s;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #009432;
     color: white;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: #00521c;
 }
 
-.btn-secondary{
+.btn-secondary {
     color: #009432;
 }
 
-.btn-secondary:hover{
+.btn-secondary:hover {
     background-color: #009432;
     color: white;
 }
 
-.row{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.2));
+.row {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
     background-image: transparent;
     height: 130px;
 }
 
-.tea-logo{
+.tea-logo {
     height: 120px;
     width: auto;
     margin-top: 10px;
     float: left;
 }
 
-.tea-text{
+.tea-text {
     height: 200px;
     width: auto;
     float: left;
@@ -103,12 +109,12 @@ h3{
     margin-left: -40px;
 }
 
-.nav-list{
+.nav-list {
     list-style: none;
     float: right;
 }
 
-.nav-list li{
+.nav-list li {
     display: inline-block;
     margin: 25px;
     margin-top: 85px;
@@ -116,40 +122,40 @@ h3{
     font-size: 16px;
 }
 
-.nav-list li a{
+.nav-list li a {
     text-decoration: none;
     font-weight: 300;
     font-size: 100%;
     color: white;
-    padding:8px 0;
+    padding: 8px 0;
     border-bottom: 5px solid transparent;
     transition: border-bottom 0.2s;
 }
 
-.nav-list li a:hover{
+.nav-list li a:hover {
     border-bottom: 3px solid #009432;
 }
 
 
-.section-1{
+.section-1 {
     background-color: rgb(255, 255, 255);
     height: 100vh;
 }
 
-.row-1{
+.row-1 {
     width: 1100px;
     height: 30%;
     margin: 0px auto;
     padding-top: 80px;
 }
 
-.row-2{
+.row-2 {
     width: 1100px;
     height: 60%;
     margin: 0px auto;
 }
 
-.intro-text{
+.intro-text {
     color: black;
     width: 70%;
     margin: 0px auto;
@@ -162,27 +168,27 @@ h3{
     justify-content: center;
 }
 
-#shop-name{
+#shop-name {
     color: #f24b0f;
     font-weight: 900;
 }
 
-.section-cards{
+.section-cards {
     display: inline-block;
     width: 30%;
     border: 2px solid transparent;
     height: 80%;
     margin: 15px;
-   /* box-shadow: 3px 3px 8px 2px #f75e27d3;*/
+    /* box-shadow: 3px 3px 8px 2px #f75e27d3;*/
 }
 
-.section-cards img{
+.section-cards img {
     height: 130px;
     width: auto;
     margin: 0px 80px 0px 80px;
 }
 
-.section-cards p{
+.section-cards p {
     display: inline-block;
     text-align: justify;
     color: rgb(110, 110, 110);
@@ -191,7 +197,7 @@ h3{
     padding: 10px;
 }
 
-.section-cards h4{
+.section-cards h4 {
     text-align: center;
     margin: 2px;
     padding: 15px;
@@ -200,7 +206,7 @@ h3{
     font-size: 90%;
 }
 
-h2{
+h2 {
     font-size: 200%;
     text-transform: uppercase;
     color: #555;
@@ -208,7 +214,7 @@ h2{
     letter-spacing: 2px;
 }
 
-h2:after{
+h2:after {
     display: block;
     height: 1px;
     width: 400px;
@@ -218,22 +224,22 @@ h2:after{
     margin-top: 30px;
 }
 
-.row-3{
+.row-3 {
     width: 100%;
 }
 
-.section-meals{
+.section-meals {
     width: 100%;
-    
+
 }
 
-.list-meals{
+.list-meals {
     list-style: none;
     width: 100%;
-    
+
 }
 
-.list-meals li{
+.list-meals li {
     overflow: hidden;
     display: block;
     float: left;
@@ -241,86 +247,86 @@ h2:after{
     background-color: black;
 }
 
-.img-meals{
+.img-meals {
     width: 100%;
     height: 250px;
     transform: scale(1.2);
     transition: transform 0.5s, opacity 0.5s;
     opacity: 0.7;
-    
+
 }
 
-.clearfix:after{
+.clearfix:after {
     display: block;
     content: "";
     clear: both;
     height: zero;
 }
 
-.img-meals:hover{
+.img-meals:hover {
     transform: scale(1);
     opacity: 1;
 }
 
-.row-4{
+.row-4 {
     width: 100%;
 }
 
-.section-delivery{
+.section-delivery {
     width: 100%;
     height: 100vh;
     background-color: rgb(255, 255, 255)(133, 43, 43);
     margin-top: 2%;
 }
 
-.section-delivery h2{
+.section-delivery h2 {
     padding-top: 30px;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 60px;
 }
 
-.img-phone-div{
+.img-phone-div {
     display: inline-block;
     width: 50%;
     height: auto;
-    background-color:transparent;
+    background-color: transparent;
 }
 
-.delivery-steps-div{
+.delivery-steps-div {
     width: 50%;
     float: right;
-    padding-top: 10px; 
+    padding-top: 10px;
     background-color: transparent;
     color: #555;
 }
 
-.steps-marking{
+.steps-marking {
     display: inline;
     color: #f24b0f;
     border: 1px solid #f24b0f;
     border-radius: 50%;
 }
 
-.img-phone-div img{
+.img-phone-div img {
     width: 250px;
     float: right;
     margin: 40px;
     padding-right: 40px;
 }
 
-.delivery-steps{
+.delivery-steps {
     background-color: rgb(255, 255, 255);
     margin-bottom: 30px;
 }
 
-.img-delivery{
+.img-delivery {
     width: 55%;
     padding-bottom: 10px;
     padding-left: 15%;
 }
 
-.steps-numbering{
+.steps-numbering {
     color: #f24b0f;
     border: 1px solid #f24b0f;
     display: inline-block;
@@ -334,7 +340,7 @@ h2:after{
     margin-right: 12px;
 }
 
-.delivery-steps p{
+.delivery-steps p {
     display: inline;
     font-size: 100%;
     color: #555;
@@ -343,7 +349,7 @@ h2:after{
     letter-spacing: 1px;
 }
 
-.app-img{
+.app-img {
     height: 60px;
     width: auto;
     margin: 25px;
@@ -351,41 +357,41 @@ h2:after{
     margin-left: 30px;
 }
 
-.section-cities{
+.section-cities {
     width: 100%;
     height: 80vh;
     background-color: #F4F4F4;
 }
 
-.section-cities h2{
+.section-cities h2 {
     padding-top: 30px;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 60px;
 }
 
-.city-card-container{
+.city-card-container {
     width: 95%;
     height: 60%;
     background-color: #F4F4F4;
     margin: 0 auto;
 }
 
-.city-card{
+.city-card {
     float: left;
     width: 20%;
     height: 100%;
     text-align: center;
-    background-color:#F4F4F4;
+    background-color: #F4F4F4;
 }
 
-.img-city{
+.img-city {
     width: 85%;
     height: auto;
     padding-bottom: 15px;
 }
 
-.city-name{
+.city-name {
     font-size: 130%;
     font-weight: 300;
     letter-spacing: 4px;
@@ -395,12 +401,12 @@ h2:after{
     padding-left: 22px;
 }
 
-.city-features{
+.city-features {
     width: 100%;
     height: 12%;
 }
 
-.icon{
+.icon {
     float: left;
     padding: 2%;
     padding-left: 15px;
@@ -412,7 +418,7 @@ h2:after{
     vertical-align: middle;
 }
 
-.icon-desc{
+.icon-desc {
     float: left;
     padding: 2%;
     padding-left: 15px;
@@ -426,16 +432,16 @@ h2:after{
 }
 
 
-.section-reviews{
+.section-reviews {
     width: 100%;
     height: 80vh;
     margin: 0 auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(/images/tea-stall.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/tea-stall.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 
-.section-reviews h2{
+.section-reviews h2 {
     padding-top: 60px;
     margin: 0 auto;
     text-align: center;
@@ -443,7 +449,7 @@ h2:after{
     color: white;
 }
 
-.review-cards{
+.review-cards {
     display: inline-block;
     width: 28%;
     height: 60%;
@@ -451,7 +457,7 @@ h2:after{
     margin-right: 0px;
 }
 
-blockquote{
+blockquote {
     padding: 30px;
     font-size: 90%;
     font-style: italic;
@@ -461,14 +467,14 @@ blockquote{
     font-weight: 300;
 }
 
-blockquote:before{
+blockquote:before {
     content: "\201C";
     font-size: 400%;
     display: block;
     margin-bottom: -30px;
 }
 
-blockquote:after{
+blockquote:after {
     content: "\201D";
     font-size: 400%;
     display: block;
@@ -476,44 +482,45 @@ blockquote:after{
     margin-top: 10px;
 }
 
-.reviewer{
+.reviewer {
     text-align: center;
     margin-top: 20px;
 }
 
-.reviewer p{
+.reviewer p {
     letter-spacing: 3px;
     text-transform: uppercase;
     margin-bottom: 10px;
     padding-left: 50px;
     font-size: 90%;
-    color: rgb(255, 255, 255);  
+    color: rgb(255, 255, 255);
 }
 
-.star{
+.star {
     margin: 4px;
     margin-left: -2px;
     font-size: 120%;
     color: #ffc400fd;
 }
 
-.star-box{
+.star-box {
     width: fit-content;
     margin: 0 auto;
 }
 
-.contact-section-background{
+.contact-section-background {
     background-color: #F4F4F4;
+    width: 100%;
 }
 
-.section-contact{
+.section-contact {
     width: 70%;
     height: 80vh;
     margin: 0 auto;
     background-color: #f4f4f4;
 }
 
-.section-contact h2{
+.section-contact h2 {
     padding-top: 60px;
     margin: 0 auto;
     text-align: center;
@@ -521,34 +528,34 @@ blockquote:after{
     color: rgb(49, 49, 49);
 }
 
-.form-row{
+.form-row {
     display: inline-block;
     width: 100%;
     height: 7vh;
     background-color: transparent;
 }
 
-.contact-label{
+.contact-label {
     width: 40%;
     float: left;
     background-color: transparent;
     color: #555;
 }
 
-label{
+label {
     padding-left: 60px;
     font-size: 90%;
     font-weight: 400;
     letter-spacing: 2px;
 }
 
-.contact-field{
+.contact-field {
     width: 60%;
     float: left;
     background-color: transparent;
 }
 
-#offer-check-text{
+#offer-check-text {
     color: #555;
     margin-left: 8px;
     font-size: 85%;
@@ -556,29 +563,29 @@ label{
 }
 
 input[type="text"],
-input[type="email"]
-,textarea{
+input[type="email"],
+textarea {
     width: 80%;
-    height:60%;
+    height: 60%;
     border-radius: 3px;
     padding: 5px;
-    font-size:80%;
+    font-size: 80%;
     border: 1px solid #ccc;
 }
 
-select{
+select {
     font-size: 80%;
     border: 1px solid #ccc;
     color: #555;
     padding: 3px;
 }
 
-textarea{
+textarea {
     font-size: 80%;
     height: 160%;
 }
 
-.btn-submit{
+.btn-submit {
     width: 30%;
     font-size: 100%;
     font-weight: 100;
@@ -587,31 +594,31 @@ textarea{
     border: 1px solid #f24b0f;
 }
 
-.btn-submit:hover{
+.btn-submit:hover {
     background-color: #f24b0f;
     color: white;
     border: 1px solid #f24b0f;
 }
 
-footer{ 
+footer {
     width: 100%;
-    background-color:#333333;
+    background-color: #333333;
     color: rgb(151, 151, 151);
 }
 
-.footer-navigation{
+.footer-navigation {
     width: 80%;
     height: 20vh;
     margin: 0 auto;
 }
 
-.footer-nav-list{
+.footer-nav-list {
     display: inline-block;
     list-style: none;
     padding-left: 120px;
 }
 
-.footer-nav-list li{
+.footer-nav-list li {
     float: left;
     padding: 10px;
     padding-top: 10px;
@@ -621,44 +628,44 @@ footer{
     margin-top: 20px;
 }
 
-.nav-list{
+.nav-list {
     text-decoration: none;
     color: rgb(151, 151, 151);
     transition: color 0.4s;
 }
 
-.nav-list:hover{
-    color: #f24b0f; 
+.nav-list:hover {
+    color: #f24b0f;
 }
 
-.social-icon{
+.social-icon {
     font-size: 140%;
     color: rgb(190, 190, 190);
     transition: color 0.4s;
 }
 
-.facebook:hover{
+.facebook:hover {
     color: #1877f2;
 }
 
-.instagram:hover{
+.instagram:hover {
     color: #c32aa3;
 }
 
-.twitter:hover{
+.twitter:hover {
     color: #1da1f2;
 }
 
-.google:hover{
+.google:hover {
     color: #db4437;
 }
 
-.social{
+.social {
     float: right;
     padding-right: 120px;
 }
 
-.footer-declaration{
+.footer-declaration {
     text-align: center;
     margin-top: 45px;
     height: 10vh;
@@ -668,7 +675,7 @@ footer{
     word-spacing: 3px;
 }
 
-.name{
+.name {
     font-size: 100%;
     font-weight: 400;
     text-decoration: none;
@@ -676,16 +683,7 @@ footer{
     transition: color 0.4s;
 }
 
-.name:hover{
+.name:hover {
     color: #f24b0f;
-    
+
 }
-
-
-
-
-
-
-
-
-

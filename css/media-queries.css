@@ -1,0 +1,346 @@
+/*---------------------------------------------------------------*/
+/* Media query for resolution greater than 1024px*/
+/*---------------------------------------------------------------*/
+
+@media only screen and (max-width:1200px) {
+
+    body {
+        font-size: 18px;
+    }
+
+    #header-text {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    h1 {
+        font-size: 400%;
+    }
+
+    h3 {
+        margin: 10px;
+        margin-left: -28px;
+        margin-top: -30px;
+        font-size: 80%;
+    }
+
+    .btn,
+    button {
+        padding: 5px;
+        margin: 5px;
+        margin-right: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .nav-list li {
+        margin: 15px;
+        margin-top: 85px;
+        font-size: 14px;
+    }
+
+    .tea-logo {
+        height: 80%;
+    }
+
+    .tea-text {
+        height: 125%;
+        margin-top: -20px;
+        margin-left: -32px;
+    }
+
+    h2 {
+        font-size: 160%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .intro-text {
+        font-size: 90%;
+    }
+
+    .row-2 {
+        width: 100%;
+        height: 80%;
+        text-align: center;
+    }
+
+    .section-cards {
+        width: 25%;
+
+    }
+
+    .row-3 {
+        width: 100%;
+    }
+
+    .img-meals {
+        width: 100%;
+        height: 27%;
+    }
+
+    .section-delivery {
+        width: 90%;
+        height: 80%;
+        margin-top: 2%;
+    }
+
+    .section-delivery h2 {
+        margin-left: 22%;
+    }
+
+    .img-phone-div img {
+        width: 40%;
+        margin-top: -5px;
+    }
+
+    .img-delivery {
+        width: 70%;
+        margin-top: -10%;
+        margin-left: -10%;
+    }
+
+    .delivery-steps {
+        width: 120%;
+    }
+
+    .delivery-steps-div {
+        width: 50%;
+    }
+
+    .delivery-steps p {
+        font-size: 90%;
+    }
+
+    .steps-numbering {
+        height: 25px;
+        width: 25px;
+        padding: 8px;
+        font-size: 120%;
+    }
+
+    .app-img {
+        width: 30%;
+        height: auto;
+        margin-top: 2%;
+    }
+
+    .section-cities {
+        height: 75%;
+        margin: 0 auto;
+    }
+
+    .city-card {
+        font-size: 85%;
+    }
+
+    .section-contact {
+        height: 80%;
+        width: 70%;
+    }
+
+    label {
+        padding-left: 50px;
+        font-size: 90%;
+    }
+
+    .contact-field {
+        width: 60%;
+        float: left;
+        background-color: transparent;
+    }
+
+    .btn-submit {
+        width: 25%;
+        font-size: 90%;
+        margin-top: 3%;
+    }
+
+    .footer-nav-list {
+        padding-left: 80px;
+    }
+}
+
+/*---------------------------------------------------------------*/
+/*      Media query for resolution betweem 768px & 1024px        */
+/*---------------------------------------------------------------*/
+
+@media only screen and (max-width:1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    header{
+        height: 90%;
+    }
+    #header-text {
+        width: 100%;
+        padding: 0 2%;
+        margin-left: -10%;
+        margin-top: -12%;
+    }
+
+    h3 {
+        margin: 12px;
+        margin-left: -28px;
+        margin-top: -30px;
+        font-size: 90%;
+    }
+
+    .btn,
+    button {
+        padding: 5px;
+        margin: 5px;
+        margin-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .nav-list li {
+        margin: 10px;
+        margin-top: 85px;
+        font-size: 14px;
+    }
+
+    .tea-logo {
+        height: 70%;
+    }
+
+    .tea-text {
+        height: 125%;
+        margin-top: -25px;
+        margin-left: -32px;
+    }
+
+    h2 {
+        font-size: 120%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .row-1{
+        width: 100%;
+    }
+
+    .intro-text {
+        font-size: 100%;
+    }
+
+    .row-2 {
+        width: 100%;
+        height: 80%;
+        text-align: center;
+    }
+
+    .section-cards {
+        width: 25%;
+    }
+
+    .section-cards img{
+        margin: 0 auto;
+    }
+
+    .row-3 {
+        width: 100%;
+    }
+
+    .img-meals {
+        width: 100%;
+        height: 20%;
+    }
+
+    .section-delivery {
+        width: 100%;
+        height: auto;
+        margin-top: 2%;
+        padding: 2%;
+    }
+
+    .section-delivery h2 {
+        margin-left: 2%;
+    }
+
+    .img-phone-div{
+        margin-left: -3%;
+    }
+    .img-phone-div img {
+        width: 30%;
+        margin-top: -5px;
+    }
+
+    .img-delivery {
+        width: 50%;
+        margin-top: -12%;
+        margin-left: -12%;
+    }
+    .delivery-steps {
+        margin-left: -10%;
+    }
+
+    .delivery-steps-div {
+        width: 50%;
+        margin-left: -20%;
+    }
+
+    .delivery-steps p {
+        font-size: 90%;
+    }
+
+    .steps-numbering {
+        height: 15px;
+        width: 15px;
+        padding: 6px;
+        font-size: 80%;
+    }
+
+    .app-img {
+        margin-left: -2%;
+    }
+
+    .section-cities {
+        height: 75%;
+        margin: 0 auto;
+    }
+
+    .city-card {
+        font-size: 85%;
+    }
+
+    .section-contact {
+        height: 80%;
+        width: 70%;
+    }
+
+    label {
+        padding-left: 50px;
+        font-size: 90%;
+    }
+
+    .contact-field {
+        width: 60%;
+        float: left;
+        background-color: transparent;
+    }
+
+    .btn-submit {
+        width: 25%;
+        font-size: 90%;
+        margin-top: 3%;
+    }
+
+    .footer-nav-list {
+        padding-left: 80px;
+    }
+}
+
+/*---------------------------------------------------------------*/
+/* Media query for resolution betweem 480px & 768px*/
+/*---------------------------------------------------------------*/
+
+@media only screen and (max-width:767px) {}
+
+/*---------------------------------------------------------------*/
+/* Media query for resolution max-width 480px*/
+/*---------------------------------------------------------------*/
+
+@media only screen and (max-width:480px) {}

@@ -10,6 +10,7 @@
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -17,6 +18,7 @@ body {
     color: white;
     font-size: 20px;
     background-color: white;
+    overflow-x: hidden;
 }
 
 header {
